@@ -1,22 +1,22 @@
 {
-  "name": "trader",
+  "name": "cassette",
   "private": true,
   "scripts": {
-    "start": "meteor run"
-  },
-  "dependencies": {
-    "chalk": "^1.1.3",
-    "meteor-node-stubs": "~0.2.0",
-    "react": "^15.0.1",
-    "react-addons-pure-render-mixin": "^15.0.1",
-    "react-dom": "^15.0.1",
-    "react-mounter": "^1.2.0"
-  },
-  "scripts": {
+    "start": "meteor run",
     "eslint": "eslint ."
   },
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "chalk": "^1.1.3",
+    "griddr": "github:stuartha13/griddr",
+    "meteor-node-stubs": "^0.2.3",
+    "react": "^15.3.1",
+    "react-addons-pure-render-mixin": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "react-mounter": "^1.2.0"
+  },
   "devDependencies": {
-    "eslint": "^2.7.0",
+    "eslint": "^2.13.1",
     "eslint-config-airbnb": "^6.2.0",
     "eslint-plugin-react": "^4.3.0"
   }
