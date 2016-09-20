@@ -1,5 +1,5 @@
 {
-  "name": "cassette",
+  "name": "__METEOR-REACT-SCAFFOLD__",
   "private": true,
   "scripts": {
     "start": "meteor run",

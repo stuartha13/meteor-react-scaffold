@@ -1,6 +1,7 @@
 import React from 'react';
 import { Meteor } from 'meteor/meteor';
 import { FlowRouter } from 'meteor/kadira:flow-router';
+import { AuthForm } from '/imports/ui/components/auth-form.jsx';
 
 export class Registration extends React.Component {
   registerUser(event) {
@@ -30,22 +31,7 @@ export class Registration extends React.Component {
     return (
       <div className="container">
         Register
-
-        <form onSubmit={ this.registerUser }>
-          <div className="row">
-            <div className="col">
-              <input id="email" type="email" placeholder="Email address" />
-            </div>
-
-            <div className="col">
-              <input id="password" type="password" placeholder="Password" />
-            </div>
-
-            <div className="col">
-              <button type="submit">create account</button>
-            </div>
-          </div>
-        </form>
+        <AuthForm onSubmit={ this.registerUser } submitText="create account" />
       </div>
     );
   }
