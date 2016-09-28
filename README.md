@@ -12,6 +12,6 @@
   - editor config
 
 ### How do I start?
-  - Global search for "__METEOR-REACT-SCAFFOLD__" and replace with your project's name
+  - Global search for `__METEOR-REACT-SCAFFOLD__` and replace with your project's name
   - `meteor npm install`
   - `meteor`
